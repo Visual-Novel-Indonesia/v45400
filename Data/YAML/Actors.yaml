@@ -1,0 +1,369 @@
+---
+- 
+- !ruby/object:RPG::Actor
+  name: エリック
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: Actor4
+  class_id: 1
+  character_name: Actor4
+  id: 1
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 銀の死神
+  description: "数々の戦場を渡り歩き、生き延びてきた歴戦の傭兵。普段は\r\n温厚だが、ひとたび戦いが始まれば狂戦士と化す。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: ナタリー
+  face_index: 1
+  character_index: 1
+  initial_level: 1
+  face_name: Actor4
+  class_id: 2
+  character_name: Actor4
+  id: 2
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 紅蓮の迅雷
+  description: "暗殺拳の達人を祖父にもつ少女。幼少のころからその技の\r\nすべてを叩き込まれている格闘術のエキスパート。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: テレンス
+  face_index: 2
+  character_index: 2
+  initial_level: 1
+  face_name: Actor4
+  class_id: 3
+  character_name: Actor4
+  id: 3
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 流浪の聖騎士
+  description: "謀略により地位を剥奪された聖騎士。真の騎士道を極めるため\r\n各地をさまよい修練を重ねている。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: アーネスト
+  face_index: 4
+  character_index: 4
+  initial_level: 1
+  face_name: Actor4
+  class_id: 4
+  character_name: Actor4
+  id: 4
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 魔剣を継ぐ者
+  description: "師匠の仇を探して旅を続ける剣士。剣に魔力を宿らせる技\r\n「魔法剣」を体得している。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: リョーマ
+  face_index: 6
+  character_index: 6
+  initial_level: 1
+  face_name: Actor4
+  class_id: 5
+  character_name: Actor4
+  id: 5
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 暁の剛剣
+  description: "東国では無双の剛剣と称された、桜花一刀流の使い手。\r\n流れるような動きから繰り出される一閃は、重く、鋭い。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: ブレンダ
+  face_index: 1
+  character_index: 1
+  initial_level: 1
+  face_name: Actor5
+  class_id: 6
+  character_name: Actor5
+  id: 6
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 深緑の護り手
+  description: "森の精霊に育てられた少女。自然を愛し、森の平穏を乱す者を\r\n許さない。都会での生活にちょっとだけ憧れている。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: リック
+  face_index: 2
+  character_index: 2
+  initial_level: 1
+  face_name: Actor5
+  class_id: 7
+  character_name: Actor5
+  id: 7
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 見えざる疾風
+  description: "束縛されることが嫌いな自称義賊の青年。軽口ばかり叩くが\r\n仲間のためなら命も張れる熱血漢。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: アリス
+  face_index: 5
+  character_index: 5
+  initial_level: 1
+  face_name: Actor5
+  class_id: 8
+  character_name: Actor5
+  id: 8
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 救世の聖女
+  description: "神託により聖女となることを運命づけられた女性。慈愛に満ち\r\nその愛情は敵に対しても等しく与えられる。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: イザベル
+  face_index: 7
+  character_index: 7
+  initial_level: 1
+  face_name: Actor5
+  class_id: 9
+  character_name: Actor5
+  id: 9
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 優雅なる悪夢
+  description: "永きに渡り人類に恐怖を与えてきた魔女。転生術の失敗により\r\n記憶の大半を失っているが、キレると本性が出る。"
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ノア
+  face_index: 6
+  character_index: 6
+  initial_level: 1
+  face_name: Actor5
+  class_id: 10
+  character_name: Actor5
+  id: 10
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: 星を見る者
+  description: "俗世との交わりを避け、山奥に隠れ住む賢者。凶星の正体を\r\n調べるため、伝説にある「最果ての書庫」を探す旅に出る。"
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Meryl
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: 顔：主人公
+  class_id: 12
+  character_name: $主人公
+  id: 11
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  note: <攻撃ID変更:57>
+  equips:
+  - 171
+  - 0
+  - 202
+  - 201
+  - 203
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Ulf
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ルフフェイス
+  class_id: 13
+  character_name: $ウェアウルフ
+  id: 12
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  note: ''
+  equips:
+  - 53
+  - 98
+  - 0
+  - 50
+  - 0
+  nickname: ''
+  description: "A female werewolf. It's unusual to see them alone.\r\nShe's very active. She's a dog after all."
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Leonora
+  face_index: 0
+  character_index: 0
+  initial_level: 13
+  face_name: レオノラフェイス
+  class_id: 14
+  character_name: $レオノラ
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: "A lewdness demon. Weak in battle.\r\nLoves erotic things."
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Lotta
+  face_index: 0
+  character_index: 0
+  initial_level: 15
+  face_name: ロッタフェイス
+  class_id: 15
+  character_name: $ロッタ
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 2
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 53
+    data_id: 3
+    value: 0.0
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: "A small female demon, good at using offensive magic.\r\nShe is very overconfident."
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 15
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0

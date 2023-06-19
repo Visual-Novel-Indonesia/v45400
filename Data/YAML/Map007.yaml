@@ -1,0 +1,225 @@
+--- !ruby/object:RPG::Map
+parallax_name: ''
+height: 15
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: 自動OP
+    x: 0
+    y: 0
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　　　　　　　A long time ago, when humanity was']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            young, from the underworld appeared']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            Demon King, who soon started to sow']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            chaos all around;']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　humanity soon fell on the brink of]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            extinction.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　At that time of need one man of valour]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            carrying a holy sword appeared.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　The hero decided to brave the unknown]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            and challenged Demon King alone:']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　soon he was cutting down thousands of]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            demons, trying to get to where Demon']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            King resided, his seemingly impregnable']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            castle.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　　　　　　　Unexpectedly, he was successful in his']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            desperate mission, and when Demon King']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            was sealed by the hands of the Hero, the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            peace has returned to the world...']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　　　　　　　However, after leaving only his']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            holy sword, soon thereafter the Hero']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            himself disappeared.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　People soon started worshipping this]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            relic, thanking the holy sword that']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            brought them the peace.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　Hundreds of years passed after that...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　At the present time even the mere fact of]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            brave hero''s existence has almost']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            disappeared from the collective memory']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            of mankind.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 2, 1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　　　　　　　And at this unfortunate time Demon King]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            woke up again, and all kinds of monsters']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            under his rule began to rampage all']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['            around the known world.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 105, 8, 7, 8, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 211, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    x: 10
+    y: 8
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: Vehicle
+        character_index: 1
+        direction: 4
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+parallax_sx: 0
+bgm: !ruby/object:RPG::BGM {name: Theme4, volume: 100, pitch: 100}
+tileset_id: 2
+encounter_step: 30
+width: 20
+data: !ruby/object:Table
+  dim: 3
+  x: 20
+  y: 15
+  z: 4
+  data:
+  - 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630
+  - 1ae1 1ae5 0639 0639 1ae3 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1 1ae1
+  - 1c4a 1aec 0639 0639 1aec 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a 1c4a
+  - 1436 1c4f 0639 0639 1c4f 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0a62 0a54 0a54
+  - 143c 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0a50 0a40 0a40
+  - 161e 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0a50 0a40 0a40
+  - 0630 0630 0630 0630 0630 0a62 0a54 0a54 0a54 0a54 0a54 0a54 0a54 0a54 0a54 0a54 0a54 0a41 0a40 0a40
+  - 0630 0630 0630 0630 0630 0a50 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40
+  - 1432 1436 0630 0630 0630 0a68 0a5c 0a5c 0a5c 0a5c 0a5c 0a5c 0a48 0a40 0a40 0a40 0a40 0a40 0a40 0a40
+  - 1438 143c 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0a50 0a40 0a40 0a40 0a40 0a40 0a40 0a40
+  - 161a 161e 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0a50 0a40 0a40 0a40 0a40 0a40 0a40 0a40
+  - 0630 0630 0630 0630 0630 0a62 0a54 0a54 0a54 0a54 0a54 0a54 0a41 0a40 0a40 0a40 0a40 0a40 0a40 0a40
+  - 0630 0630 0630 0630 0630 0a50 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40 0a40
+  - 0630 0630 0630 0630 0630 0a68 0a5c 0a5c 0a5c 0a5c 0a5c 0a5c 0a48 0a40 0a40 0a40 0a40 0a40 0a40 0a40
+  - 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0630 0a50 0a40 0a40 0a40 0a40 0a40 0a40 0a40
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 02d1 02d1 02f3 0075 02f2 02f2 02f3 02d1 02d1 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 02d1 02fb 02e0 02fa 02fa 02fb 02d1 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 02d1 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 02d1 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0042 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 02e2 02e3 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 02ea 02eb 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 02d1 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0075 02d1 02d1 0000 0000 0000 0000 0000 0000 0000 0000 0042 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0005 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+parallax_loop_y: false
+autoplay_bgm: false
+encounter_list: []
+autoplay_bgs: false
+parallax_show: false
+scroll_type: 0
+parallax_loop_x: false
+disable_dashing: false
+parallax_sy: 0
+display_name: ''
+specify_battleback: false
+note: ''
+battleback1_name: ''
+battleback2_name: ''

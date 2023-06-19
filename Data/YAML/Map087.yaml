@@ -1,0 +1,252 @@
+--- !ruby/object:RPG::Map
+parallax_name: ''
+height: 16
+events:
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    x: 0
+    y: 0
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Thus, I was able to successfully complete my exam.']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['But, naturally, after I returned my master']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [was angry with me.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The curse was soon lifted,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but I was now owing the incurred costs to master.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['I lost all the power I acquired during the exam,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [but the assignment wasn't deemed as failure.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I was able to become a mage.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['And now that I am mage,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [I am allowed to freely research the spells]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [contained in that forbidden book.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 1, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['The power of not dying, the power to']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [become stronger in all things related to sex...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [My aim is such a spell...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [93]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [98, 98, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [write_public_data]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Ｈシーン？追加]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [ちょっとメリル＆複数の男性っぽいＣＧを表示]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [エッチなセリフも少し入れる。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [60]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: hp_strings01, volume: 100, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 105, p: [2, false]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　■企画・原案]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　かぐらみずき]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　■シナリオ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　かぐらみずき]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　■Ｈシーンテキスト]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　柳樹]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　■制作]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　かぐらみずき]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　■原画・ＣＧ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　かぐらみずき]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　■使用させて頂いたスクリプト著作者様]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　ＣＡＣＡＯ様　サイト：CACAO SOFT]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　ろかん様　　　サイト：回想領域　　]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['　　　塵風様　　　　サイト：Wind Messer ']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　星潟様　　　　サイト：Artificial Providence]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　ももまる様　　サイト：ももまるＬａｂｓ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　坂本昌一郎様　サイト：sound sepher]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　Ru/むっくRu様 サイト：鳥小屋．ｔｘｔ]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　■使用させて頂いたＢＧＭ・ＳＥ著作者様]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　月に憑かれたピエロ様]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　RP-MUSIC様]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　T.M.BACH様]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: ['']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　■制作ツール]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 405, p: [　　　RPGツクールVXAce　株式会社エンターブレイン]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [1, logo, 0, 0, 0, 0, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 235, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [In the case there's an event that you haven't seen]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['yet, do you want to unlock all scenes?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 102, p: [['Yes', 'No'], 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [0, 'Yes']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Events have been unlocked.]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [71, 71, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [72, 72, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [73, 73, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [74, 74, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [75, 75, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [76, 76, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [77, 77, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [78, 78, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [79, 79, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [80, 80, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [81, 81, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [82, 82, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [83, 83, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [84, 84, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [85, 85, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [86, 86, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [87, 87, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [88, 88, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [89, 89, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [90, 90, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [91, 91, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [92, 92, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [93, 93, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [94, 94, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [95, 95, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [96, 96, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [97, 97, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [98, 98, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 402, p: [1, 'No']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 404, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 354, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+parallax_sx: 0
+bgm: !ruby/object:RPG::BGM {name: ed1, volume: 100, pitch: 100}
+tileset_id: 3
+encounter_step: 30
+width: 20
+data: !ruby/object:Table
+  dim: 3
+  x: 20
+  y: 16
+  z: 4
+  data:
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600 0600
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+parallax_loop_y: false
+autoplay_bgm: true
+encounter_list: []
+autoplay_bgs: false
+parallax_show: false
+scroll_type: 0
+parallax_loop_x: false
+disable_dashing: false
+parallax_sy: 0
+display_name: ''
+specify_battleback: false
+note: ''
+battleback1_name: ''
+battleback2_name: ''

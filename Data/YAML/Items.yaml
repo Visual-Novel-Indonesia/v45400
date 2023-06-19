@@ -1,0 +1,872 @@
+---
+- 
+- !ruby/object:RPG::Item
+  description: Recovers 500 HP.
+  name: Low Grade Salve
+  consumable: true
+  occasion: 0
+  icon_index: 192
+  price: 50
+  scope: 7
+  animation_id: 37
+  note: 本来５００ポイント回復
+  speed: 0
+  id: 1
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 500.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Recovers 1500 HP.
+  name: Mid Grade Salve
+  consumable: true
+  occasion: 0
+  icon_index: 192
+  price: 200
+  scope: 7
+  animation_id: 37
+  note: 本来２５００回復　価格１５０
+  speed: 0
+  id: 2
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 1500.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Recovers 3000 HP.
+  name: High Grade Salve
+  consumable: true
+  occasion: 0
+  icon_index: 192
+  price: 500
+  scope: 7
+  animation_id: 37
+  note: 本来の価格４５０
+  speed: 0
+  id: 3
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 0.0
+    value2: 3000.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Restores 250 MP.
+  name: Magic Potion
+  consumable: true
+  occasion: 0
+  icon_index: 193
+  price: 250
+  scope: 7
+  animation_id: 38
+  note: "本来はＭＰ２００ポイント回復するもの。\r\n本来の価格３００"
+  speed: 0
+  id: 4
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 0.0
+    value2: 250.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Restores 500 MP.
+  name: Mid Grade Magic Potion
+  consumable: true
+  occasion: 0
+  icon_index: 193
+  price: 600
+  scope: 7
+  animation_id: 38
+  note: ''
+  speed: 0
+  id: 5
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 0.0
+    value2: 500.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Restores 1000 MP.
+  name: High Grade Magic Potion
+  consumable: true
+  occasion: 0
+  icon_index: 193
+  price: 1500
+  scope: 7
+  animation_id: 39
+  note: ''
+  speed: 0
+  id: 6
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 0.0
+    value2: 1000.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Used to revive an ally in combat.
+  name: Revival Medicine
+  consumable: true
+  occasion: 0
+  icon_index: 194
+  price: 250
+  scope: 9
+  animation_id: 42
+  note: ''
+  speed: 0
+  id: 7
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 1
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Used to treat Poison.
+  name: Antidote
+  consumable: true
+  occasion: 0
+  icon_index: 194
+  price: 30
+  scope: 7
+  animation_id: 40
+  note: ''
+  speed: 0
+  id: 8
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 2
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Treats all abnormal states except K.O.
+  name: Panacea
+  consumable: true
+  occasion: 0
+  icon_index: 194
+  price: 90
+  scope: 7
+  animation_id: 41
+  note: ''
+  speed: 0
+  id: 9
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 2
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 3
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 4
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 5
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 6
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 7
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Recovers all HP and MP.
+  name: Elixir
+  consumable: true
+  occasion: 0
+  icon_index: 197
+  price: 5000
+  scope: 7
+  animation_id: 39
+  note: ''
+  speed: 0
+  id: 10
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 11
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 12
+    data_id: 0
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Increases maximum HP by 50 points.
+  name: Life Up
+  consumable: true
+  occasion: 2
+  icon_index: 199
+  price: 200
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 11
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 0
+    value1: 50.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Increases maximum MP by 10 points.
+  name: Mana Up
+  consumable: true
+  occasion: 2
+  icon_index: 199
+  price: 200
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 12
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 1
+    value1: 10.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Increases Attack by 3 points.
+  name: Power Up
+  consumable: true
+  occasion: 2
+  icon_index: 199
+  price: 200
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 13
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 2
+    value1: 3.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Increases Defense by 3 points.
+  name: Guard Up
+  consumable: true
+  occasion: 2
+  icon_index: 199
+  price: 200
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 14
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 3
+    value1: 3.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Increases Magic by 3 points.
+  name: Magic Up
+  consumable: true
+  occasion: 2
+  icon_index: 199
+  price: 200
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 15
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 4
+    value1: 3.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Increases Magic Defense by 3 points.
+  name: Resist Up
+  consumable: true
+  occasion: 2
+  icon_index: 199
+  price: 200
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 16
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 5
+    value1: 3.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Increases Agility by 3 points.
+  name: Speed Up
+  consumable: true
+  occasion: 2
+  icon_index: 199
+  price: 200
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 17
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 42
+    data_id: 6
+    value1: 3.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 18
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 19
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 20
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "A ticket to go back with the boat.\r\nMust be careful not to lose it."
+  name: Boat Ticket
+  consumable: false
+  occasion: 3
+  icon_index: 235
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 21
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 22
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: ''
+  name: ''
+  consumable: true
+  occasion: 0
+  icon_index: 0
+  price: 0
+  scope: 7
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 23
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 1
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: Allows you to change the automatic message speed.
+  name: Auto Message Setup
+  consumable: false
+  occasion: 2
+  icon_index: 256
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 24
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 44
+    data_id: 6
+    value1: 0.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "I have to gather: 『Blue Magic Crystal』,『Succubus Semen』\r\n『Demon Flower Nectar』,『Holy Water』,『Dragon's Heart』."
+  name: Examination Letter
+  consumable: false
+  occasion: 3
+  icon_index: 235
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 25
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "Crystal that stores magical power. If the place is rich \r\nwith water magic, the crystal will be tinted blue."
+  name: Blue Magic Crystal
+  consumable: false
+  occasion: 3
+  icon_index: 342
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 26
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "Semen of succubus literally.\r\nContains an abundance of sex magic."
+  name: Succubus Semen
+  consumable: false
+  occasion: 3
+  icon_index: 222
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 27
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "The flower that was named Demon Flower \r\nbecause its nectar attracts large monsters."
+  name: Demon Flower Nectar
+  consumable: false
+  occasion: 3
+  icon_index: 367
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 28
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "Rare water that springs forth in ancient ruins. Its \r\norigins are a mystery, so it can be obtained in ruins."
+  name: Holy Water
+  consumable: false
+  occasion: 3
+  icon_index: 215
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 29
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Item
+  description: "Contains a lot of magic inside, can be used as a \r\npower source for magical tools. Valuable."
+  name: Dragon Heart
+  consumable: false
+  occasion: 3
+  icon_index: 346
+  price: 0
+  scope: 0
+  animation_id: 0
+  note: ''
+  speed: 0
+  id: 30
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  itype_id: 2
+  repeats: 1
+  tp_gain: 0

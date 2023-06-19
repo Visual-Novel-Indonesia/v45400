@@ -1,0 +1,7342 @@
+---
+- 
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：斧
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 伐採に使う小型の斧。
+  name: ハンドアクス
+  icon_index: 144
+  price: 100
+  animation_id: 7
+  note: ''
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: 戦闘用に作られた両刃の斧。
+  name: バトルアクス
+  icon_index: 144
+  price: 500
+  animation_id: 7
+  note: ''
+  id: 3
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 30
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: 三日月型の刃をもつ戦斧。
+  name: バルディッシュ
+  icon_index: 144
+  price: 3000
+  animation_id: 7
+  note: ''
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られた斧。
+  name: ミスリルアクス
+  icon_index: 144
+  price: 6000
+  animation_id: 7
+  note: ''
+  id: 5
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.1
+  params:
+  - 0
+  - 0
+  - 70
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: 真紅に染め上げられた戦斧。
+  name: クリムゾンアクス
+  icon_index: 144
+  price: 15000
+  animation_id: 7
+  note: ''
+  id: 6
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 90
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: 巨人族の英雄が使ったとされる重斧。
+  name: 魔斧ギガンテス
+  icon_index: 144
+  price: 30000
+  animation_id: 7
+  note: ''
+  id: 7
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 110
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 1
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 8
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 9
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 10
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 11
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 12
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：爪
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 拳頭にトゲがついたグローブ。
+  name: セスタス
+  icon_index: 145
+  price: 100
+  animation_id: 1
+  note: ''
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 4
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 2
+- !ruby/object:RPG::Weapon
+  description: 短い４本の爪が取りつけられた格闘武器。
+  name: バグナウ
+  icon_index: 145
+  price: 500
+  animation_id: 1
+  note: ''
+  id: 16
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 2
+- !ruby/object:RPG::Weapon
+  description: 鋼鉄のかぎ爪が仕込まれた手甲。
+  name: アイアンクロウ
+  icon_index: 145
+  price: 3000
+  animation_id: 1
+  note: ''
+  id: 17
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 16
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 2
+- !ruby/object:RPG::Weapon
+  description: ミスリルのかぎ爪が仕込まれた手甲。
+  name: ミスリルクロウ
+  icon_index: 145
+  price: 6000
+  animation_id: 1
+  note: ''
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 28
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 2
+- !ruby/object:RPG::Weapon
+  description: 竜牙の拳頭をもつ手甲。
+  name: ドラゴンファング
+  icon_index: 145
+  price: 15000
+  animation_id: 1
+  note: ''
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 43
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 2
+- !ruby/object:RPG::Weapon
+  description: 西風の名を冠する魔法の爪。
+  name: 魔爪ゼファー
+  icon_index: 145
+  price: 30000
+  animation_id: 1
+  note: ''
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 34
+    data_id: 0
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 58
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 2
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 22
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 23
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 24
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 25
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：槍
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 突きに特化させた短めの槍。
+  name: スピア
+  icon_index: 146
+  price: 100
+  animation_id: 13
+  note: ''
+  id: 28
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  params:
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  - 0
+  - -2
+  - 0
+  etype_id: 0
+  wtype_id: 3
+- !ruby/object:RPG::Weapon
+  description: 幅広の刃をもった鋼鉄製の長槍。
+  name: パルチザン
+  icon_index: 146
+  price: 500
+  animation_id: 13
+  note: ''
+  id: 29
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -3.0
+  params:
+  - 0
+  - 0
+  - 25
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 3
+- !ruby/object:RPG::Weapon
+  description: 穂先に斧頭の取りつけられた槍。
+  name: ハルバード
+  icon_index: 146
+  price: 3000
+  animation_id: 13
+  note: ''
+  id: 30
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -3.0
+  params:
+  - 0
+  - 0
+  - 38
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 3
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られた長槍。
+  name: ミスリルスピア
+  icon_index: 146
+  price: 6000
+  animation_id: 13
+  note: ''
+  id: 31
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  params:
+  - 0
+  - 0
+  - 55
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 3
+- !ruby/object:RPG::Weapon
+  description: 白き神の祝福を受けた聖なる槍。
+  name: ホーリーランス
+  icon_index: 146
+  price: 15000
+  animation_id: 13
+  note: ''
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -3.0
+  params:
+  - 0
+  - 0
+  - 75
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 3
+- !ruby/object:RPG::Weapon
+  description: 影の国に伝わる魔力を帯びた槍。
+  name: 魔槍ゲイボルグ
+  icon_index: 146
+  price: 30000
+  animation_id: 13
+  note: ''
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -3.0
+  params:
+  - 0
+  - 0
+  - 99
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 3
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 34
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 35
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 36
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 38
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：片手剣
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 39
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 軽くて扱いやすい刀身の短い剣。
+  name: ショートソード
+  icon_index: 147
+  price: 100
+  animation_id: 7
+  note: ''
+  id: 40
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 鋭い切れ味を誇る戦闘用の長剣。
+  name: ロングソード
+  icon_index: 147
+  price: 500
+  animation_id: 7
+  note: ''
+  id: 41
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 反りのある刀身をもつ幅広の剣。
+  name: ファルシオン
+  icon_index: 147
+  price: 3000
+  animation_id: 7
+  note: ''
+  id: 42
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 35
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られた長剣。
+  name: ミスリルソード
+  icon_index: 147
+  price: 6000
+  animation_id: 7
+  note: ''
+  id: 43
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 刀身にルーン文字の刻まれた剣。
+  name: ルーンブレード
+  icon_index: 147
+  price: 15000
+  animation_id: 7
+  note: ''
+  id: 44
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 70
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 勝利と災厄をもたらす魔剣。
+  name: 魔剣ティルヴィング
+  icon_index: 147
+  price: 30000
+  animation_id: 7
+  note: ''
+  id: 45
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 95
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 46
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 47
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 48
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 49
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 50
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 51
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：両手剣
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 52
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 軽くて扱いやすい刀身の短い剣。
+  name: ショートソード
+  icon_index: 147
+  price: 100
+  animation_id: 7
+  note: ''
+  id: 53
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 鋭い切れ味を誇る戦闘用の長剣。
+  name: ロングソード
+  icon_index: 147
+  price: 500
+  animation_id: 7
+  note: ''
+  id: 54
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 反りのある刀身をもつ幅広の剣。
+  name: ファルシオン
+  icon_index: 147
+  price: 3000
+  animation_id: 7
+  note: ''
+  id: 55
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 35
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られた長剣。
+  name: ミスリルソード
+  icon_index: 147
+  price: 6000
+  animation_id: 7
+  note: ''
+  id: 56
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 刀身にルーン文字の刻まれた剣。
+  name: ルーンブレード
+  icon_index: 147
+  price: 15000
+  animation_id: 7
+  note: ''
+  id: 57
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 70
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: 勝利と災厄をもたらす魔剣。
+  name: 魔剣ティルヴィング
+  icon_index: 147
+  price: 30000
+  animation_id: 7
+  note: ''
+  id: 58
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 95
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 4
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 59
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 60
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 61
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 62
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 63
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 64
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：刀
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 65
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 銘をもたない細身の刀。
+  name: 無銘の刀
+  icon_index: 148
+  price: 100
+  animation_id: 7
+  note: ''
+  id: 66
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 18
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 5
+- !ruby/object:RPG::Weapon
+  description: 破壊力に優れた太刀。
+  name: 斬馬刀
+  icon_index: 148
+  price: 498
+  animation_id: 7
+  note: ''
+  id: 67
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 35
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 5
+- !ruby/object:RPG::Weapon
+  description: 名のある刀匠に鍛えられた業物の刀。
+  name: 虎徹
+  icon_index: 148
+  price: 3000
+  animation_id: 7
+  note: ''
+  id: 68
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 55
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 5
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属で作られた太刀。
+  name: 霊銀の太刀
+  icon_index: 148
+  price: 6000
+  animation_id: 7
+  note: ''
+  id: 69
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 72
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 5
+- !ruby/object:RPG::Weapon
+  description: 破邪の力を秘めた古代刀。
+  name: 七支刀
+  icon_index: 148
+  price: 15000
+  animation_id: 7
+  note: ''
+  id: 70
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.08
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 99
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 5
+- !ruby/object:RPG::Weapon
+  description: 剣士たちの生き血を吸ってきた魔性の刀。
+  name: 妖刀ムラマサ
+  icon_index: 148
+  price: 30000
+  animation_id: 7
+  note: ''
+  id: 71
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 128
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 5
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 72
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 73
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 74
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 75
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 76
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 77
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：弓
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 78
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 狩猟用に作られた短めの弓。
+  name: ショートボウ
+  icon_index: 149
+  price: 100
+  animation_id: 13
+  note: ''
+  id: 79
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 13
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 6
+- !ruby/object:RPG::Weapon
+  description: 威力を高めた戦闘用の長弓。
+  name: ロングボウ
+  icon_index: 149
+  price: 500
+  animation_id: 13
+  note: ''
+  id: 80
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 26
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 6
+- !ruby/object:RPG::Weapon
+  description: 強力なバネで矢を射出する石弓。
+  name: クロスボウ
+  icon_index: 149
+  price: 3000
+  animation_id: 13
+  note: ''
+  id: 81
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 40
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 6
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られた弓。
+  name: ミスリルボウ
+  icon_index: 149
+  price: 6000
+  animation_id: 13
+  note: ''
+  id: 82
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 56
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  etype_id: 0
+  wtype_id: 6
+- !ruby/object:RPG::Weapon
+  description: 妖精の森に生える霊木から作られた弓。
+  name: エルブンボウ
+  icon_index: 149
+  price: 15000
+  animation_id: 13
+  note: ''
+  id: 83
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 75
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  etype_id: 0
+  wtype_id: 6
+- !ruby/object:RPG::Weapon
+  description: 月の女神の名を冠する白銀の弓。
+  name: 魔弓アルテミス
+  icon_index: 149
+  price: 30000
+  animation_id: 13
+  note: ''
+  id: 84
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: 5.0
+  params:
+  - 0
+  - 0
+  - 100
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  etype_id: 0
+  wtype_id: 6
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 85
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 86
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 87
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 88
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 89
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 90
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：短剣
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 91
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 日常生活にも使えるナイフ。
+  name: ナイフ
+  icon_index: 150
+  price: 100
+  animation_id: 7
+  note: ''
+  id: 92
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.03
+  params:
+  - 0
+  - 0
+  - 3
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: 幅広の刀身をもつ戦闘用の短刀。
+  name: ダガー
+  icon_index: 150
+  price: 500
+  animation_id: 7
+  note: ''
+  id: 93
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.04
+  params:
+  - 0
+  - 0
+  - 7
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: 攻撃を受け流すこともできる短剣。
+  name: マインゴーシュ
+  icon_index: 150
+  price: 3000
+  animation_id: 7
+  note: ''
+  id: 94
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  params:
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られたナイフ。
+  name: ミスリルナイフ
+  icon_index: 150
+  price: 6000
+  animation_id: 7
+  note: ''
+  id: 95
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.06
+  params:
+  - 0
+  - 0
+  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: 暗殺者が好んで使う漆黒の短刀。
+  name: アサシンダガー
+  icon_index: 150
+  price: 15000
+  animation_id: 7
+  note: ''
+  id: 96
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.07
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.07
+  params:
+  - 0
+  - 0
+  - 33
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: 竜巻の名を冠する魔法の短剣。
+  name: 魔刃ヴォーテクス
+  icon_index: 150
+  price: 30000
+  animation_id: 7
+  note: ''
+  id: 97
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.03
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 50
+  - 0
+  - 0
+  - 0
+  - 10
+  - 10
+  etype_id: 0
+  wtype_id: 7
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 98
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 99
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 100
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 101
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 102
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 103
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：片手槌
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 104
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 打撃力を高めた金属製の棍棒。
+  name: メイス
+  icon_index: 151
+  price: 100
+  animation_id: 19
+  note: ''
+  id: 105
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: 柄の先に鎖で鉄球をつないだ打撃武器。
+  name: フレイル
+  icon_index: 151
+  price: 500
+  animation_id: 19
+  note: ''
+  id: 106
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 18
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: 戦闘用に作られた鋼鉄のハンマー。
+  name: ウォーハンマー
+  icon_index: 151
+  price: 3000
+  animation_id: 19
+  note: ''
+  id: 107
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 26
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られた戦槌。
+  name: ミスリルメイス
+  icon_index: 151
+  price: 6000
+  animation_id: 19
+  note: ''
+  id: 108
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 36
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: 大地の力を秘めた魔法のハンマー。
+  name: アースブレイカー
+  icon_index: 151
+  price: 15000
+  animation_id: 19
+  note: ''
+  id: 109
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 45
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: “打ち砕くもの”の異名をもつ戦神の槌。
+  name: 魔槌ミョルニル
+  icon_index: 151
+  price: 30000
+  animation_id: 19
+  note: ''
+  id: 110
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 65
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 111
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 112
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 113
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 114
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 115
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 116
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：両手槌
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 117
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 打撃力を高めた金属製の棍棒。
+  name: メイス
+  icon_index: 151
+  price: 100
+  animation_id: 19
+  note: ''
+  id: 118
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: 柄の先に鎖で鉄球をつないだ打撃武器。
+  name: フレイル
+  icon_index: 151
+  price: 500
+  animation_id: 19
+  note: ''
+  id: 119
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 18
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: 戦闘用に作られた鋼鉄のハンマー。
+  name: ウォーハンマー
+  icon_index: 151
+  price: 3000
+  animation_id: 19
+  note: ''
+  id: 120
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 26
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られた戦槌。
+  name: ミスリルメイス
+  icon_index: 151
+  price: 6000
+  animation_id: 19
+  note: ''
+  id: 121
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 36
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: 大地の力を秘めた魔法のハンマー。
+  name: アースブレイカー
+  icon_index: 151
+  price: 15000
+  animation_id: 19
+  note: ''
+  id: 122
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 45
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: “打ち砕くもの”の異名をもつ戦神の槌。
+  name: 魔槌ミョルニル
+  icon_index: 151
+  price: 30000
+  animation_id: 19
+  note: ''
+  id: 123
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 65
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 8
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 124
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 125
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 126
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 127
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 128
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 129
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：片手杖
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 130
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 樫の木で作られた堅い杖。
+  name: ウッドスタッフ
+  icon_index: 152
+  price: 100
+  animation_id: 19
+  note: ''
+  id: 131
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 1
+  - 0
+  - 3
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: 精神集中を助ける宝珠のついた杖。
+  name: 魔道士の杖
+  icon_index: 152
+  price: 500
+  animation_id: 19
+  note: ''
+  id: 132
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 6
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: 術者の魔力を増幅させる銀製の杖。
+  name: フォースワンド
+  icon_index: 152
+  price: 3000
+  animation_id: 19
+  note: ''
+  id: 133
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 14
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られた杖。
+  name: ミスリルロッド
+  icon_index: 152
+  price: 6000
+  animation_id: 19
+  note: ''
+  id: 134
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 22
+  - 0
+  - 12
+  - 5
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: ヤドリギの老木から作られた杖。
+  name: 霊木の杖
+  icon_index: 152
+  price: 15000
+  animation_id: 19
+  note: ''
+  id: 135
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 30
+  - 0
+  - 15
+  - 8
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: 賢者の石が埋め込まれた魔杖。
+  name: 魔杖アゾット
+  icon_index: 152
+  price: 30000
+  animation_id: 19
+  note: ''
+  id: 136
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 40
+  - 0
+  - 20
+  - 10
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 137
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 138
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 139
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 140
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 141
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 142
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：両手杖
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 143
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 樫の木で作られた堅い杖。
+  name: ウッドスタッフ
+  icon_index: 152
+  price: 100
+  animation_id: 19
+  note: ''
+  id: 144
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 1
+  - 0
+  - 3
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: 精神集中を助ける宝珠のついた杖。
+  name: 魔道士の杖
+  icon_index: 152
+  price: 500
+  animation_id: 19
+  note: ''
+  id: 145
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 6
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: 術者の魔力を増幅させる銀製の杖。
+  name: フォースワンド
+  icon_index: 152
+  price: 3000
+  animation_id: 19
+  note: ''
+  id: 146
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 14
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルで作られた杖。
+  name: ミスリルロッド
+  icon_index: 152
+  price: 6000
+  animation_id: 19
+  note: ''
+  id: 147
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 22
+  - 0
+  - 12
+  - 5
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: ヤドリギの老木から作られた杖。
+  name: 霊木の杖
+  icon_index: 152
+  price: 15000
+  animation_id: 19
+  note: ''
+  id: 148
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 30
+  - 0
+  - 15
+  - 8
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: 賢者の石が埋め込まれた魔杖。
+  name: 魔杖アゾット
+  icon_index: 152
+  price: 30000
+  animation_id: 19
+  note: ''
+  id: 149
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 40
+  - 0
+  - 20
+  - 10
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 150
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 151
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 152
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 153
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 154
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 155
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 分類：銃
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 156
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: 火打ち式の旧式拳銃。
+  name: フリントロック
+  icon_index: 153
+  price: 100
+  animation_id: 91
+  note: ''
+  id: 157
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 16
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 10
+- !ruby/object:RPG::Weapon
+  description: 銃士に支給される歩兵銃。
+  name: マスケット
+  icon_index: 153
+  price: 500
+  animation_id: 91
+  note: ''
+  id: 158
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 30
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 10
+- !ruby/object:RPG::Weapon
+  description: 騎兵が使用するカービン銃。
+  name: ドラグーン
+  icon_index: 153
+  price: 3000
+  animation_id: 91
+  note: ''
+  id: 159
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 48
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 10
+- !ruby/object:RPG::Weapon
+  description: 魔法の金属ミスリルの銃身をもつ銃。
+  name: 霊銀銃
+  icon_index: 153
+  price: 6000
+  animation_id: 91
+  note: ''
+  id: 160
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 66
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 10
+- !ruby/object:RPG::Weapon
+  description: 黒色火薬を用いたリボルバー式拳銃。
+  name: ピースメイカー
+  icon_index: 153
+  price: 15000
+  animation_id: 91
+  note: ''
+  id: 161
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 84
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 10
+- !ruby/object:RPG::Weapon
+  description: 霊子を弾丸に換えて撃ち出す魔銃。
+  name: 魔銃エーテルブラスト
+  icon_index: 153
+  price: 30000
+  animation_id: 91
+  note: ''
+  id: 162
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: -0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -5.0
+  params:
+  - 0
+  - 0
+  - 108
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 10
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 163
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 164
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 165
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 166
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 167
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 168
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 169
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: Exclusives
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 170
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: "A magic-enhancing staff made of oak wood.\r\n"
+  name: Magic User Staff
+  icon_index: 152
+  price: 500
+  animation_id: 19
+  note: ''
+  id: 171
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 1
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: "A magic wand with a gemstone embedded in it.\r\n"
+  name: Incubus Staff
+  icon_index: 152
+  price: 2000
+  animation_id: 19
+  note: ''
+  id: 172
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 6
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: "An old staff that amplifies the magical power of \r\nits user."
+  name: Ancient Staff
+  icon_index: 152
+  price: 5000
+  animation_id: 19
+  note: ''
+  id: 173
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 54
+    data_id: 1
+    value: 0.0
+  params:
+  - 0
+  - 0
+  - 14
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 9
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 174
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 175
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 176
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 177
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 178
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 179
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 180
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 181
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 182
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 183
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 184
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 185
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 186
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 187
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 188
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 189
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 190
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 191
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 192
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 193
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 194
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 195
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 196
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 197
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 198
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 199
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: 以下パッシブスキル
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 200
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 201
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 202
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 203
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 204
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 205
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 206
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 207
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 208
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 209
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 210
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 211
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 212
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 213
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 214
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 215
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 216
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 217
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 218
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 219
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 220
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 221
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 222
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 223
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 224
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 225
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 226
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 227
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 228
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 229
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 230
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 231
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 232
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 233
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 234
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 235
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 236
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 237
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 238
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 239
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 240
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 241
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 242
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 243
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 244
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 245
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 246
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 247
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 248
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 249
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0
+- !ruby/object:RPG::Weapon
+  description: ''
+  name: ''
+  icon_index: 0
+  price: 0
+  animation_id: 0
+  note: ''
+  id: 250
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 0
+  wtype_id: 0

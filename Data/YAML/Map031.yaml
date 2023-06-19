@@ -1,0 +1,1157 @@
+--- !ruby/object:RPG::Map
+parallax_name: ''
+height: 15
+events:
+  3: !ruby/object:RPG::Event
+    id: 3
+    name: EV003
+    x: 14
+    y: 8
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!Door1'
+        character_index: 4
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: EV004
+    x: 6
+    y: 7
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!Door1'
+        character_index: 4
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    x: 2
+    y: 7
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!Door1'
+        character_index: 4
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  2: !ruby/object:RPG::Event
+    id: 2
+    name: EV002
+    x: 10
+    y: 7
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: '!Door1'
+        character_index: 4
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Open1, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 214, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  1: !ruby/object:RPG::Event
+    id: 1
+    name: EV001
+    x: 0
+    y: 0
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿笑顔２, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「I found an inn right away~♪」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿唖然, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Now, let''s see... The sorcerer promotion']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  exam takes place on this island...」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿困り顔, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「I was ordered to read this letter only after I]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  arrive here... I can read it now, right?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  It''s not just a blank paper, right?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl took the letter out of her luggage.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿ため息, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「Hoo... The letters have started to appear」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「I don''t know if it''s to prevent cheating, but the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' magic used in this sorcerer advancement exam''']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' letter is quite elaborate...」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿唖然, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Let me see, what does it say....『Collect the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' following materials』?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['『Blue Magic Crystal』,『Succubus Semen』,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['『Demon  Flower Nectar』, 『Holy Water』, 『Dragon''s']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Heart』...  These are all five that I need」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿驚愕, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Geh, wait a second, a『Dragon''s Heart』!?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿怒鳴る, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「The other are nothing special, but a『Dragon']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Heart』, it''s just plain absurd!」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「How many years do they intend on making me]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' waste on this exam!? It will take me years to']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' complete!」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿ため息, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「....but if I don''t do this, I won''t become']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　a proper mage. I have to do my best....」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿笑顔２, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「And I know what will help me get through it♪]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' This prohibited book, that I stole from the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' master''s place!」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿困り笑顔, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「If I use a spell written in this book,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  I can get stronger quickly, right?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿笑顔２, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「So even if someone as weak as me uses it,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  they can get more powerful in a flash♪」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿笑顔, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「I should start at once~♪]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　First of all, draw a magic circle......」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - 6
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &1 !ruby/object:RPG::MoveCommand {code: 15, parameters: [60]}
+          - &2 !ruby/object:RPG::MoveCommand {code: 41, parameters: ['!Hexagram', 6]}
+          - &3 !ruby/object:RPG::MoveCommand {code: 15, parameters: [60]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿唖然, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Now, stand on top of it, and chant the magic']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  incantation...」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand
+        i: 0
+        c: 205
+        p:
+        - -1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &4 !ruby/object:RPG::MoveCommand {code: 29, parameters: [3]}
+          - &5 !ruby/object:RPG::MoveCommand {code: 1, parameters: []}
+          - &6 !ruby/object:RPG::MoveCommand {code: 29, parameters: [4]}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*4]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*5]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 505, p: [*6]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl chanted the spell.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 212, p: [-1, 107, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿笑顔, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Waah... I can feel my capabilities growing, the']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' power is like boiling inside me...」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 243, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 242, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [30]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 212, p: [-1, 97, true]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl was cursed!]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿驚愕, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Eeeh! Why!?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿困り顔２, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「W-wait! Why did I get cursed!?']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　Let me check the spell's contents again...」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl read the prohibited book properly.]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 244, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿唖然, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「I see now... So this magic was the type that]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' has both merits and demerits...」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿微笑, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「Its merit is that『You become stronger after]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  doing naughty things with strong men』」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「『You will be able to distinguish men with whom]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' you have good chemistry just by laying your eyes on']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' them』 means it would be easy to spot them!」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「『However, it only works once for each partner』']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　... so I'm supposed to find various people to]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' sleep with, huh」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿笑顔, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「『You need to take the semen inside your body』]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　If that''s the case, I can use my mouth to get']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  stronger in no time ♪」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿唖然, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「The demerits are that『You can''t get pregnant』,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　『You crave for more』... and that『It's fatal』」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿驚愕, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Wait, WHAT!?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿ため息, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「... Ah, if I look closely, it doesn''t look like']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' I''m going to die right away」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿微笑, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「This is a pretty powerful spell, so you would have']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' to spend a lot of money to get rid of the curse']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' it packed with...」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「For the time being, since I have a lot of time and']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' it brings a lot of advantages, I shouldn''t look for']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' the way to undo it!」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「I don''t care about having children at the moment,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  so that demerit isn''t bothering me in the slightest」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「It says『You crave for more』,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　and my body does feel slightly hot,']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　so I guess that''s the reason..?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿唖然, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「It seems that my sensitivity has gone up along]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' with the lust... is this a benefit?　Or a']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' disadvantage?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿エロ顔２, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Well, I can get stronger while doing something']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' pleasurable! My genitals are throbbing, and it']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' feels like I want to have sex ♪」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿笑顔２, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「But I've gotten really tired...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　Let's give it a try tomorrow ♪」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [8]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 230, p: [120]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 32, 17, 7, 2, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿笑顔２, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Well then, I''m gonna try my best from today']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' on～♪」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 121, p: [41, 41, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: true
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: 魔方陣
+    x: 10
+    y: 10
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: true
+      direction_fix: false
+      through: true
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 41
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: Ｈ相手＆Ｈイベント処理
+    x: 9
+    y: 9
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 161
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: People7
+        character_index: 7
+        direction: 8
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: true
+      priority_type: 1
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Ｈシーン前のどっと。相手によって]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [ページとスイッチとキャラグラを変更する]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: h_love1, volume: 90, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Middle-aged Man]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「I never expected an invitation of that kind...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [　to come from someone like you」]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公裸＿エロ顔１, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Come on, less words and more action, take off']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [' your clothes, quickly...♥」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Middle-aged Man]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Oh, right, right...」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [ここにＨイベントシーンコモンイベントを入れる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 243, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: h_love2, volume: 90, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [66]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['----------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Ｈシーン後の処理]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 244, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [通常プレイ時の処理]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [71, 71, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [161, 161, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [write_public_data]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 32, 7, 7, 8, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [↓の命令文は移動先のマップにある相手のキャラＩＤ（イベント番号）]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 408, p: [を指定すること。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [1]}
+      - !ruby/object:RPG::EventCommand
+        i: 1
+        c: 205
+        p:
+        - 1
+        - !ruby/object:RPG::MoveRoute
+          repeat: false
+          skippable: false
+          wait: true
+          list:
+          - &7 !ruby/object:RPG::MoveCommand {code: 25, parameters: []}
+          - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 505, p: [*7]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['----------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [ここに別れの会話]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['----------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Middle-aged Man]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「Well, this was really good...」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [22, 主人公＿エロ顔２, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「Fufufu, mister is also quite skillful♥」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Middle-aged Man]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「Is miss in the middle of the journey? If you need']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' any help in this town, you can depend on me」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [22, 主人公＿笑顔, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「Wah, thanks.']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　If I ever get in trouble, I''ll rely on you～♪」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [31]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [回想モードから来た場合はここで回想ページに戻す。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [161, 161, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [62]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 162
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: People3
+        character_index: 4
+        direction: 8
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: true
+      priority_type: 1
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Ｈシーン前のどっと。相手によって]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [ページとスイッチとキャラグラを変更する]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: h_love1, volume: 90, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公＿エロ顔１, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Now, what should we do.....?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Young Man]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「O-Oh.....]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['　How about letting me fondle your breasts?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Ahn.... Alright, let''s do that♥」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 243, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: h_love2, volume: 90, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [ここにＨイベントシーンコモンイベントを入れる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [67]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['----------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Ｈシーン後の処理]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 244, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [通常プレイ時の処理]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [72, 72, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [162, 162, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [write_public_data]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 32, 3, 6, 8, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [↓の命令文は移動先のマップにある相手のキャラＩＤ（イベント番号）]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 408, p: [を指定すること。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['----------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [ここに別れの会話]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['----------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [22, 主人公＿エロ顔１, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「Well, I''m sorry, really♥」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Young Man]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「That doesn't sound too convincing...」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「Fufufu♥ It's fine... Just forgive me...]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' And thank you so much♥」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Young Man]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「Are those actual words of gratitude?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['　...well, it''s fine I guess」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [31]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [回想モードから来た場合はここで回想ページに戻す。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [162, 162, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [62]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 163
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: People7
+        character_index: 5
+        direction: 8
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: true
+      priority_type: 1
+      trigger: 3
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Ｈシーン前のどっと。相手によって]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [ページとスイッチとキャラグラを変更する]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: h_love1, volume: 90, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Youngster]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [「E-Erm... What are you doing...]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['  All of a sudden...」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 231, p: [22, 主人公裸＿エロ顔１, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Geez, how can you say that after coming here?」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['「Come on, quickly ♥」']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 243, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 241, p: [!ruby/object:RPG::BGM {name: h_love2, volume: 90, pitch: 100}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [ここにＨイベントシーンコモンイベントを入れる]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 117, p: [68]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: ['----------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [Ｈシーン後の処理]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 244, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 111, p: [0, 1, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [通常プレイ時の処理]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [73, 73, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 355, p: [write_public_data]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['----------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [ここに別れの会話]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: ['----------------------------------------------------------------']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 231, p: [22, 主人公裸＿エロ顔１, 0, 1, 5, 6, 100, 100, 255, 0]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「How did it feel?']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' Your graduation from virginity♥」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Youngster]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「Erm, thank you so much!!']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [' It felt extremely good!」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [「I'm so happy that you said that♥」]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Youngster]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['「Y-Yes... Thanks a lot, really」']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 101, p: ['', 0, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: [Meryl]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 401, p: ['（Fufufu, so innocent. How lovely♥）']}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 221, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [163, 163, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 201, p: [0, 32, 17, 7, 2, 2]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [↓の命令文は移動先のマップにある相手のキャラＩＤ（イベント番号）]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 408, p: [を指定すること。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 211, p: [1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [3]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 222, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [31]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 411, p: []}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 108, p: [回想モードから来た場合はここで回想ページに戻す。]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 121, p: [162, 162, 1]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 117, p: [62]}
+      - !ruby/object:RPG::EventCommand {i: 1, c: 0, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 412, p: []}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  8: !ruby/object:RPG::Event
+    id: 8
+    name: メリル
+    x: 9
+    y: 8
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 161
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: $主人公（裸）
+        character_index: 0
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [宿屋で男を誘ってのＨの時用]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [相手によってページを増やし、スイッチを変える。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 162
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: $主人公
+        character_index: 0
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [宿屋で男を誘ってのＨの時用]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [相手によってページを増やし、スイッチを変える。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: true
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 163
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: $主人公（裸）
+        character_index: 0
+        direction: 2
+        pattern: 1
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 1
+      trigger: 0
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 108, p: [宿屋で男を誘ってのＨの時用]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 408, p: [相手によってページを増やし、スイッチを変える。]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+parallax_sx: 0
+bgm: !ruby/object:RPG::BGM {name: h_love1, volume: 100, pitch: 100}
+tileset_id: 3
+encounter_step: 30
+width: 20
+data: !ruby/object:Table
+  dim: 3
+  x: 20
+  y: 15
+  z: 4
+  data:
+  - 1a94 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aac 1aa9
+  - 1aa8 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1ab0
+  - 1aa8 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1ab0
+  - 1aa8 0b22 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b14 0b24 1ab0
+  - 1aa8 0b28 0b0c 0b1c 0b1c 0b1c 0b0c 0b1c 0b1c 0b1c 0b0c 0b1c 0b1c 0b08 0b00 0b04 0b1c 0b1c 0b26 1ab0
+  - 1a96 1abd 0b20 1abb 1aa7 1abd 0b20 1abb 1aa7 1abd 0b20 1abb 1ab5 0b28 0b0c 0b26 0640 0641 0642 1ab0
+  - 1aa8 1c16 0b20 1c13 1ab0 1c16 0b20 1c13 1ab0 1c16 0b20 1c13 1aa3 1abd 0b20 1abb 1ab1 1ab1 1ab1 1aab
+  - 1aa8 1c1c 0b20 1c19 1ab0 1c1c 0b20 1c19 1ab0 1c1c 0b20 1c19 1ab0 1c16 0b20 1c13 1c12 1c12 1c12 1ab0
+  - 1aa8 0b22 0b03 0b24 1ab0 0b22 0b03 0b24 1ab0 0b22 0b03 0b24 1ab0 1c1c 0b20 1c19 1c18 1c18 1c18 1ab0
+  - 1aa8 0b10 0b00 0b18 1ab0 0b10 0b00 0b18 1ab0 0b10 0b00 0b18 1ab0 0b22 0b03 0b14 0b14 0b14 0b24 1ab0
+  - 1aa8 0b10 0b00 0b18 1ab0 0b10 0b00 0b18 1ab0 0b10 0b00 0b18 1ab0 0b10 0b00 0b00 0b00 0b00 0b18 1ab0
+  - 1aa8 0b28 0b1c 0b26 1ab0 0b28 0b1c 0b26 1ab0 0b28 0b1c 0b26 1ab0 0b28 0b1c 0b1c 0b1c 0b1c 0b26 1ab0
+  - 1aae 1ab1 1ab1 1ab1 1aaf 1ab1 1ab1 1ab1 1aaf 1ab1 1ab1 1ab1 1aaf 1ab1 1ab1 1ab1 1ab1 1ab1 1ab1 1ab7
+  - 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c12 1c16
+  - 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c18 1c1c
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0c7b 0c7d 0000 0000 0c7b 0c7d 0000 0000 0c7b 0c7d 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01e8 0000 01e9 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 01f0 0000 01f1 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0032 0000 0000 0000 0032 0000 0000 0000 0032 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0050 0000 003a 0000 0050 0000 003a 0000 0050 0000 003a 0000 0000 0000 0000 0000 0000 0032 0000
+  - 0000 0058 0000 0000 0000 0058 0000 0000 0000 0058 0000 0000 0000 0000 0000 0000 0051 0052 003a 0000
+  - 0000 0068 0000 0000 0000 0068 0000 0000 0000 0068 0000 0000 0000 0000 0000 0000 0059 005a 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0068 0060 0068 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0224 0000 0000 0000 0224 0000 0000 0000 0224 0000 0000 0000 0224 0000 0000 0000 0224 0000
+  - 0000 0000 022c 0000 0000 0000 022c 0000 0000 0000 022c 0000 0000 0000 022c 0000 0000 0000 022c 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 000c 000c 000c 0000
+  - 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0000 0000
+  - 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0000 0005 0000 0000 0000 0000 0000
+  - 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000
+  - 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000
+  - 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0005 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
+parallax_loop_y: false
+autoplay_bgm: false
+encounter_list: []
+autoplay_bgs: false
+parallax_show: false
+scroll_type: 0
+parallax_loop_x: false
+disable_dashing: false
+parallax_sy: 0
+display_name: Bar and Inn 2F (One Zeal)
+specify_battleback: true
+note: ''
+battleback1_name: Wood1
+battleback2_name: Room2

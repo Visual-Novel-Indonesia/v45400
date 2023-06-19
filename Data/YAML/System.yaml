@@ -1,0 +1,562 @@
+--- !ruby/object:RPG::System
+elements:
+- ''
+- Physical
+- Absorb
+- Fire
+- Ice
+- Thunder
+- Water
+- Ground
+- Wind
+- Holy
+- Dark
+- ''
+start_y: 6
+airship: !ruby/object:RPG::System::Vehicle
+  start_y: 0
+  bgm: !ruby/object:RPG::BGM {name: Airship, volume: 100, pitch: 100}
+  start_x: 0
+  character_index: 3
+  character_name: Vehicle
+  start_map_id: 0
+test_battlers:
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 11
+  level: 99
+  equips:
+  - 171
+  - 0
+  - 202
+  - 201
+  - 203
+_: 7829367
+edit_map_id: 87
+battle_end_me: !ruby/object:RPG::ME
+  name: Victory1
+  pitch: 100
+  volume: 100
+party_members:
+- 11
+start_x: 6
+ship: !ruby/object:RPG::System::Vehicle
+  start_y: 0
+  bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
+  start_x: 0
+  character_index: 1
+  character_name: Vehicle
+  start_map_id: 0
+battler_hue: 0
+sounds:
+- !ruby/object:RPG::SE {name: Cursor2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Decision3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Cancel2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Buzzer1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Equip1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Save, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Load, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Battle1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Run, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Attack3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Damage4, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Collapse1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Collapse3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Collapse4, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Damage5, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Collapse2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Recovery, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Miss, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Evasion1, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Evasion2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Reflection, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Chime2, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Item3, pitch: 100, volume: 80}
+- !ruby/object:RPG::SE {name: Item3, pitch: 100, volume: 80}
+variables:
+- 
+- プレイヤーの位置X
+- プレイヤーの位置Y
+- 右側キャラ立ち位置（Ｘ）
+- 右側キャラ立ち位置（Ｙ）
+- 中央キャラ立ち位置（Ｘ）
+- 中央キャラ立ち位置（Ｙ）
+- 左側キャラ立ち位置（Ｘ）
+- 左側キャラ立ち位置（Ｙ）
+- 転移前マップＩＤ
+- 転移前座標Ｘ
+- 転移前座標Ｙ
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- プレイヤーのレベル
+- 行った街の数
+- 現在のダンジョン
+- メインシナリオ進行度
+- サブシナリオ１進行度
+- サブシナリオ２進行度
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- サキュバスループ回数
+- ''
+- ''
+- ''
+- ２回目Ｈをした回数
+- ''
+- ''
+- Items Collected
+- 即席変数Ａ
+- 即席変数Ｂ
+- 即席変数Ｃ
+- 即席変数Ｄ
+- 即席変数Ｅ
+- ''
+- ''
+- ''
+- ''
+- 最深の階層
+- 現在の階層
+- 出現モンスター変数
+- ''
+- テレポート変数
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- 戦闘高速化
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- アイテム選択カテゴリ
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- スタートコマンド拡張で使ってるよ
+- ''
+- ''
+- 自動文字送り速度（１～５）
+- 回想番号変数
+- 現在の回想ページ番号
+- 最大シーン数
+- 基本ＣＧ枚数
+- 今回のＣＧや回想のマップＩＤ
+- 回想の移動場所（縦）
+- 回想の移動場所（横）
+- ''
+- ''
+battle_bgm: !ruby/object:RPG::BGM {name: Battle, volume: 100, pitch: 100}
+version_id: 69808281
+start_map_id: 1
+battler_name: Skeleton
+magic_number: 77696160
+switches:
+- 
+- 回想モード
+- 回想シーン許可
+- 透明解除
+- 閲覧中
+- ゲームクリア
+- テストプレイ
+- モンスター動作停止
+- 複数人ＰＴ制のゲーム
+- ８方向移動から４方向移動にする
+- プレイヤー操作禁止
+- 回想サムネ表示
+- サクサクモード
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- マジックミラー
+- 催眠光線
+- ディスペル
+- バインド
+- チャーム
+- チャームイベント後
+- ''
+- スライム倒した
+- ディスペル後
+- サキュイベ完了
+- オーガＨイベ完了
+- イビルアイイベ完了
+- ドライベ開始
+- ドライベ完了
+- オーガ倒した
+- サキュバスループセリフ
+- 守護者の情報
+- 洞窟の男助けた。
+- ''
+- 温泉スイッチ
+- OP終了
+- 青の魔水晶獲得
+- サキュバスの精液獲得
+- 魔王花の蜜獲得
+- 聖霊水獲得
+- ドラゴンの心臓獲得
+- ＥＤイベント
+- ''
+- サキュバスの情報
+- 魔王花の情報
+- 青の魔水晶の情報
+- ドラゴンの情報
+- ''
+- ''
+- オーガ再登場
+- ''
+- モンスターとの初Ｈ
+- ドラゴンに負けか逃げ
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ＥＶ：０１
+- ＥＶ：０２
+- ＥＶ：０３
+- ＥＶ：０４
+- ＥＶ：０５
+- ＥＶ：０６
+- ＥＶ：０７
+- ＥＶ：０８
+- ＥＶ：０９
+- ＥＶ：１０
+- ＥＶ：１１
+- ＥＶ：１２
+- ＥＶ：１３
+- ＥＶ：１４
+- ＥＶ：１５
+- ＥＶ：１６
+- ＥＶ：１７
+- ＥＶ：１８
+- ＥＶ：１９
+- ＥＶ：２０
+- ＥＶ：２１
+- ＥＶ：２２
+- ＥＶ：２３
+- ＥＶ：２４
+- ＥＶ：２５
+- ＥＶ：２６
+- ＥＶ：２７
+- ＥＶ：２８
+- ＥＶ：２９
+- ＥＶ：３０
+- ＥＶ：３１
+- ＥＶ：３２
+- ＥＶ：３２
+- ＥＶ：３３
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- メッセージスキップ
+- 戦闘高速化用
+- 戦闘中装備変更可スイッチ
+- イベントスキップのフラグ
+- ウィンドウ消去無効
+- 履歴保存無効
+- 履歴表示禁止
+- ''
+- ''
+- ''
+- 戦闘終了まで自動戦闘継続
+- 自動戦闘早送りスイッチ
+- 選択肢の誤動作防止
+- データ引継ぎした。
+- 回想シーン許可
+- 回想モード
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ワンス１オジサン
+- ワンス２若者
+- ワンス３童貞青年
+- ワンス４オジサマ船員
+- ワンス洞窟の男
+- ツーミラ１ショタ
+- ツーミラ２修理屋
+- ツーミラ３新人冒険者
+- ツーミラ４宿屋店員
+- スーリエ１覗き男
+- スーリエ２旅人
+- スーリエ３内気青年
+- スーリエ４中年童貞
+- フォーキン１デブおっさん
+- フォーキン２執事
+- フォーキン３常連客
+- フォーキン４悩める青年
+- フォーキン５真面目戦士
+- ファイブル１見張り
+- ファイブル２チンピラ
+- ファイブル３乳親父
+- ファイブル４じいさん
+- ファイブル５温泉
+- ファイブルＨ相手１
+- ファイブルＨ相手１
+- ''
+- ''
+- ''
+- ''
+- サキュバスＨ
+- オーガＨ
+- イビルアイＨ
+- ドラゴンＨ
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+- ''
+gameover_me: !ruby/object:RPG::ME
+  name: Gameover1
+  pitch: 100
+  volume: 100
+game_title: Ｈでさくさくレベルアップ！！～魔術師メリルの昇級試験～ver1.02
+title_bgm: !ruby/object:RPG::BGM {name: title, volume: 90, pitch: 100}
+terms: !ruby/object:RPG::System::Terms
+  params:
+  - Max HP
+  - Max MP
+  - Attack
+  - Defense
+  - Magic
+  - Magic Defense
+  - Agility
+  - Luck
+  etypes:
+  - Weapon
+  - Shield
+  - Head
+  - Armor
+  - Accessory
+  commands:
+  - Fight
+  - Run Away
+  - Attack
+  - Defend
+  - Items
+  - Skills
+  - Equip
+  - Status
+  - Formation
+  - Save
+  - Game End
+  - ''
+  - Weapon
+  - Armor
+  - Important Stuff
+  - Equip
+  - Optimize
+  - Remove All
+  - New Game
+  - Continue
+  - Shutdown
+  - To Title
+  - Cancel
+  - ''
+  basic:
+  - Level
+  - Lv
+  - HP
+  - HP
+  - MP
+  - MP
+  - TP
+  - TP
+test_troop_id: 374
+boat: !ruby/object:RPG::System::Vehicle
+  start_y: 0
+  bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
+  start_x: 0
+  character_index: 0
+  character_name: Vehicle
+  start_map_id: 0
+skill_types:
+- ''
+- Special
+- Skill
+- ''
+weapon_types:
+- ''
+- 斧
+- 爪
+- 槍
+- 剣
+- 刀
+- 弓
+- 短剣
+- 槌
+- Staff
+- 銃
+armor_types:
+- ''
+- General Armor
+- Magic Armor
+- 軽装防具
+- 重装防具
+- 小型盾
+- 大型盾
+- 装飾品
+- 身体特徴
+currency_unit: G
+window_tone: !ruby/object:Tone {r: -255.0, g: -255.0, b: -255.0, a: 0.0}
+japanese: false
+opt_draw_title: false
+opt_use_midi: false
+opt_transparent: true
+opt_followers: false
+opt_slip_death: true
+opt_extra_exp: false
+opt_display_tp: false
+battleback1_name: DecorativeTile
+battleback2_name: Castle2
+title1_name: title
+title2_name: ''
+opt_floor_death: false
